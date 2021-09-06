@@ -53,9 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpg");
+      width: 140px;
+      height: 150px;
+      background: url("../img/por_small.png");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -103,8 +103,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/b2.jpg);
-    background: rgba(68, 68, 68, 0.9), url(../img/b2.jpg);
+    background: url(../img/vi.mp4);
+    background: rgba(68, 68, 68, 0.9), url(../img/vi.mp4);
     background-attachment: fixed;
     background-size: cover; } 
 
@@ -122,7 +122,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(73, 73, 73, 0.2); }
 
 a {
   color: #fff;
@@ -134,8 +134,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a;
-   }
+  color: #eece1a; }
 
 main {
   padding: 4rem;
@@ -262,7 +261,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/por_small.png");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -281,3 +280,31 @@ main {
       font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
+
+.fullscreen-bgvideo {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+#home{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.0); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
